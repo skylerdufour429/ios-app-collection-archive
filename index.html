@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iOS App Collection Archive</title>
+    <meta
+      name="description"
+      content="Metadata archive for legacy iOS apps including bundle identifiers, versions, and file sizes."
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container header-inner">
+        <div>
+          <p class="eyebrow">Archive</p>
+          <h1>iOS App Collection</h1>
+        </div>
+        <a class="button secondary" href="catalog.json" target="_blank" rel="noreferrer">View JSON</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div>
+          <p class="badge">Metadata-only catalog</p>
+          <h2>Legacy iOS apps preserved as archive metadata.</h2>
+          <p>
+            This collection documents bundle metadata, version history, minimum OS support,
+            and binary size for apps in the archive. The repository intentionally does not
+            include proprietary app binaries.
+          </p>
+        </div>
+      </section>
+
+      <section class="stats" id="stats" aria-label="Collection summary"></section>
+
+      <section class="toolbar" aria-label="App filtering controls">
+        <label class="search-field">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Search by app name or bundle ID" />
+        </label>
+
+        <label class="filter-field">
+          <span>Minimum OS</span>
+          <select id="osFilter">
+            <option value="all">All versions</option>
+          </select>
+        </label>
+      </section>
+
+      <section>
+        <div class="results-header">
+          <h3>Apps in archive</h3>
+          <p id="resultsCount">Loading...</p>
+        </div>
+        <div id="appGrid" class="app-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
