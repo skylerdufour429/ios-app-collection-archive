@@ -1,0 +1,26 @@
+{
+  "title": "iOS App Collection Archive",
+  "description": "Archive metadata for legacy iOS apps preserved for research and documentation.",
+  "apps": [
+    { "name": "Animal Sounds", "bundleId": "com.smartbabyapps.animalsounds", "version": "2.0", "platform": "iOS", "minimumOS": "3.1", "binarySizeMB": 19.8 },
+    { "name": "SoundTouch", "bundleId": "com.yourcompany.SoundTouch", "version": "1.4", "platform": "iOS", "minimumOS": "3.0", "binarySizeMB": 155.5 },
+    { "name": "Tozzle", "bundleId": "com.nodeflexion.Tozzle", "version": "3.7", "platform": "iOS", "minimumOS": "3.1.3", "binarySizeMB": 112.6 },
+    { "name": "AutismXpress", "bundleId": "X7WS995LSR.com.StudioEmotion.AutismXpress", "version": "1.0", "platform": "iOS", "minimumOS": "3.1.2", "binarySizeMB": 7.4 },
+    { "name": "Lunchbox", "bundleId": "com.thup.MonkeyPreschool", "version": "1.4", "platform": "iOS", "minimumOS": "3.0", "binarySizeMB": 13.7 },
+    { "name": "Peek-a-Zoo", "bundleId": "com.duckduckmoosedesign.peekazoo", "version": "1.1.1", "platform": "iOS", "minimumOS": "3.0", "binarySizeMB": 19.1 },
+    { "name": "Michigan Nature Sounds", "bundleId": "com.yourcompany.MichiganNatureSounds", "version": "1.0", "platform": "iOS", "minimumOS": "3.0", "binarySizeMB": 24.6 },
+    { "name": "Peek-a-Zoo", "bundleId": "com.tbd.pazCLL", "version": "1.0", "platform": "iOS", "minimumOS": "3.0", "binarySizeMB": 24.6 },
+    { "name": "Artsee", "bundleId": "com.britejar.artsee", "version": "1.1", "platform": "iOS", "minimumOS": "2.2", "binarySizeMB": 12.4 },
+    { "name": "Angry Birds", "bundleId": "com.rovio.AngryBirdsHalloween", "version": "1.5.3", "platform": "iOS", "minimumOS": "3.0", "binarySizeMB": 16.8 },
+    { "name": "Farm Flip Fun", "bundleId": "lv.yapp.farmflipfun", "version": "1.0", "platform": "iOS", "minimumOS": "3.0", "binarySizeMB": 10.6 },
+    { "name": "Farm Story", "bundleId": "com.teamlava.farmstory", "version": "1.2", "platform": "iOS", "minimumOS": "3.0", "binarySizeMB": 19.9 },
+    { "name": "Stickers", "bundleId": "com.nightanddaystudios.ericcarlestickers", "version": "1.0", "platform": "iOS", "minimumOS": "5.0", "binarySizeMB": 206.1 },
+    { "name": "Forest", "bundleId": "com.nightanddaystudios.peekabooforest", "version": "1.1.0", "platform": "iOS", "minimumOS": "3.1.3", "binarySizeMB": 25.6 },
+    { "name": "Virtuoso", "bundleId": "com.peterb.virtuosopianofree", "version": "3.1.2", "platform": "iOS", "minimumOS": "4.0", "binarySizeMB": 19.9 },
+    { "name": "ABC Tracer", "bundleId": "com.appzoo.ABCTracer", "version": "1.8", "platform": "iOS", "minimumOS": "2.2.1", "binarySizeMB": 20.9 },
+    { "name": "Peek Wild", "bundleId": "com.nightanddaystudios.peekaboowild", "version": "2.0.1", "platform": "iOS", "minimumOS": "3.1.3", "binarySizeMB": 9.8 },
+    { "name": "Peekaboo", "bundleId": "com.nightanddaystudios.peekaboobarn", "version": "2.0", "platform": "iOS", "minimumOS": "2.2", "binarySizeMB": 3.6 },
+    { "name": "Finding Sight", "bundleId": "my.finding3", "version": "2.1", "platform": "iOS", "minimumOS": "3.2", "binarySizeMB": 34.0 },
+    { "name": "ArtikPix", "bundleId": "com.rinnapps.artikpix.iap", "version": "1.2.4", "platform": "iOS", "minimumOS": "3.1", "binarySizeMB": 41.4 }
+  ]
+}
